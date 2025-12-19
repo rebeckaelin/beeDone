@@ -1,0 +1,17 @@
+.image_container {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+
+.image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image_container p {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-top: -4rem;
+}

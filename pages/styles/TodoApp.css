@@ -1,0 +1,27 @@
+.main_container {
+  padding: 16px;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.bee_hive {
+  height: 130px;
+  width: 120px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bee_hive.hover img {
+  transform: translateY(2px);
+}
+.bee_hive img {
+  height: 100%;
+}

@@ -1,0 +1,36 @@
+.hex_btn_container {
+  /* display: flex;
+  width: 100%;
+  margin-bottom: 0.67rem;
+  flex-direction: column; */
+}
+
+.hex_btn_container p {
+  /* margin-left: auto; */
+}
+
+.hex_btn {
+  margin-top: auto;
+  margin-bottom: 1rem;
+  font-family: "Nunito", sans-serif;
+  padding: 0.9rem;
+  font-size: 1rem;
+  width: 100%;
+  background-color: #f7c629;
+  border: none;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 2rem;
+  box-shadow: -4px 4px 4px 1px rgba(204, 160, 7, 0.75);
+  font-weight: 400;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hex_btn:active {
+  transform: translateY(2px);
+}
+
+.hex_btn:hover {
+  font-weight: 600;
+}

@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  font-style: italic;
+}
+
+header h1 {
+  color: black;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+header h1 span {
+  font-size: 5rem;
+}
